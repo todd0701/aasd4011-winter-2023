@@ -19,6 +19,7 @@ We use `pip` and `venv`, which are the default Python environment management sys
             * Windows Powershell: `.\venv\pytorch_cpu\Scripts\Activate.ps1`
          4. Install the packages: `pip install -r requirements_pytorch_cpu.txt`
          5. Install `ipykernel`: `python -m ipykernel install --user --name=pytorch_cpu --display-name=pytorch_cpu`
+         `python -m ipykernel install --user --name=tensorflow_cpu --display-name=tensorflow_cpu`
          6. Deactivate the environment by: `deactivate`
          6. Repeat steps c-f to set up the `Tensorflow` virtual environment. _Modify any mention of 'pytorch' to 'tensorflow' in the commands_.
 
